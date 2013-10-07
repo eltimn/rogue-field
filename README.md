@@ -19,8 +19,8 @@ feature requests, and general discussion on Rogue.
 
 ## Releases
 
-The latest release is 2.2.1. See the [changelog](https://github.com/foursquare/rogue/blob/master/CHANGELOG.md) for more details.
+The latest release is 2.2.1. See the [changelog](https://github.com/foursquare/rogue-field/blob/master/CHANGELOG.md) for more details.
 
-Major changes in 2.2.0:
+Major changes in 2.2.1:
 
 - split rogue-field into an independent project
