@@ -1,0 +1,27 @@
+Pre-release checklist:
+
+  [ ] Update CHANGELOG.md with features included in the new release
+     [ ] Update sbt example in README.md with latest version
+     [ ] Update "latest release" sentence in README.md with latest version
+     [ ] Update "New in ..." section in README.md
+        [ ] Move the existing "New in ..." section to the "Lots of new features since..." section
+        [ ] Add the features listed in CHANGELOG.md to the "New in ..." section
+  [ ] Remove the "-SNAPSHOT" from the version in RogueBuild.scala
+  [ ] Reload sbt
+  [ ] Run "+publish-local"
+  [ ] Commit these changes (but don't push!)
+
+Release checklist:
+
+  [ ] Run "+publish" in sbt
+  [ ] Find the rogue repository on oss.sonatype.org / Staging Repositories
+  [ ] Select it and click Close
+  [ ] Select it and click Release
+
+Post-release checklist:
+
+  [ ] Tag the release version (e.g., "git tag v1.0.0")
+  [ ] Bump the version in RogueBuild.scala and add "-SNAPSHOT" to it
+  [ ] Commit these changes
+  [ ] Push both commits to Github
+  [ ] Push tags to Github with "git push origin --tags"
