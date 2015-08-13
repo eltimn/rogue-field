@@ -6,9 +6,9 @@ object RogueBuild extends Build {
   lazy val project = Project("rogue-field", file(".")) dependsOn()
 
   lazy val defaultSettings: Seq[Setting[_]] = Seq(
-    version := "2.2.1",
+    version := "2.2.2",
     organization := "com.foursquare",
-    crossScalaVersions := Seq("2.9.1", "2.9.2", "2.10.2", "2.9.0-1", "2.9.0"),
+    crossScalaVersions := Seq("2.10.5", "2.11.7"),
     publishMavenStyle := true,
     publishArtifact in Test := false,
     pomIncludeRepository := { _ => false },

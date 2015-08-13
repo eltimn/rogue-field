@@ -1,5 +1,8 @@
 ## Release Notes
 
+# 2.2.2
+ - drop support for scala 2.9.2, add support for scala 2.11
+
 # 2.2.1
 
 - Split rogue-field into an independent project
